@@ -1,0 +1,28 @@
+{
+  "name": "order-summary-component",
+  "version": "1.0.0",
+  "description": "Frontendmentor.io challenge - order summary component",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavosanchezgalarza/frontendmentor-order-summary-component.git"
+  },
+  "keywords": [
+    "tailwindcss"
+  ],
+  "author": "Gustavo Sanchez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gustavosanchezgalarza/frontendmentor-order-summary-component/issues"
+  },
+  "homepage": "https://github.com/gustavosanchezgalarza/frontendmentor-order-summary-component#readme",
+  "dependencies": {
+    "autoprefixer": "^10.3.2",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7",
+    "vite": "^2.5.0"
+  }
+}
