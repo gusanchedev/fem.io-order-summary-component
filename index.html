@@ -19,20 +19,20 @@
     <link rel="stylesheet" href="css/tailwind.css" />
     <title>Frontend Mentor | Order summary card</title>
   </head>
-  <body class="bg-pale-blue font-red-hat-display">
+  <body class="flex justify-center justify-items-center	font-red-hat-display bg-desktop-pattern bg-no-repeat bg-top-4 bg-pale-blue">
     <div
       class="
         bg-very-pale-blue
-        mx-8
-        my-16
         rounded-2xl
         overflow-hidden
         shadow-card
-        sm:mx-auto
-        sm:w-1/2
+        my-8
+        mx-8
+        w-11/12
+        sm:w-3/5
+        md:w-2/5
         lg:w-1/3
         xl:w-1/4
-        xl:mt-32
       "
     >
       <img
@@ -40,10 +40,10 @@
         src="images/illustration-hero.svg"
         alt="Hero Image"
       />
-      <h1 class="font-bold text-2xl text-dark-blue text-center mt-8 mb-4">
+      <h1 class="font-bold text-xl text-dark-blue text-center mt-8 mb-4">
         Order Summary
       </h1>
-      <h2 class="text-desaturated-blue font-medium text-center px-8 mb-6 sm:text-sm">
+      <h2 class="text-desaturated-blue font-medium text-center text-sm px-10 xl:px-7 mb-6">
         You can now listen to millions of songs, audiobooks, and podcasts on any
         device anywhere you like!
       </h2>
@@ -60,17 +60,17 @@
           rounded-xl
         "
       >
-        <div>
+        <div class>
           <img src="images/icon-music.svg" alt="icon-music" />
         </div>
-        <div>
+        <div class="pl-4">
           <p class="font-bold text-sm text-dark-blue">Annual Plan</p>
           <p class="text-sm text-desaturated-blue font-medium text-opacity-80">
             $59.99/year
           </p>
         </div>
         <div>
-          <a class="underline text-sm font-bold text-purple-800 pl-6 cursor-pointer" href="#"
+          <a class="underline text-xs font-bold text-purple-800 pl-6 cursor-pointer" href="#"
             >Change</a
           >
         </div>
@@ -80,13 +80,13 @@
           mt-6
           w-4/5
           mx-auto
-          py-2.5
-          rounded-xl
+          py-3
+          rounded-lg
           bg-bright-blue
           font-bold
           text-very-pale-blue text-center
           shadow-3xl
-          text-sm
+          text-xs
           cursor-pointer
         "
       >

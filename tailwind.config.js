@@ -3,6 +3,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: theme => ({
+        'desktop-pattern': "url('/images/pattern-background-desktop.svg')",
+      }),
+      backgroundPosition: {
+        'top-4': 'top -160px left -20px',
+      },
       colors: {
         "pale-blue": "hsl(225, 100%, 94%)",
         "bright-blue": "hsl(245, 75%, 52%)",
