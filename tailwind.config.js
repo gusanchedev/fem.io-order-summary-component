@@ -13,6 +13,9 @@ module.exports = {
       boxShadow: {
         '3xl': '0px 13px 21px -5px hsl(225deg 80% 80%)',
         'card': '1px 27px 34px 0px hsl(225deg 100% 90%)',
+      },
+      fontFamily: {
+        "red-hat-display": ['"Red Hat Display"', 'sans-serif'],
       }
     },
   },
